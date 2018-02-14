@@ -15,12 +15,5 @@ client.getServers(function(err, server){
                     return;
                    }
 
-                console.log(server.name);
-                // FindOut Public IP Address
-//                console.log("Server Details Info : ")
-//                console.log("Server Name : %s ", server.name)
-//                console.log("Admin Password : %s ", server.adminPass)
-//                console.log("Public IP : %s ", server.addresses.public)
-//                console.log("Key Pair : $ ", server.openstack.key_name)
-
-                });
+                console.log(server);
+                 });

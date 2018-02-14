@@ -23,13 +23,13 @@ client.on('log::*',function(message, object){
 });
 
 // DELETE SERVER / INSTANCE
-var ServerId = '54418178-6dbf-4fa6-a30e-0a11e323ba44'
+var ServerId = 'f4777434-ea83-44e4-8524-3b68f7151326'
 client.destroyServer(ServerId,
                     function (err, server) {
                         if(err){
                             console.dir(err);
                             return;
                         }
-                        console.log(ServerId);
+                        console.log("Server %s deleted Successfully ! ", ServerId);
 
                      });
