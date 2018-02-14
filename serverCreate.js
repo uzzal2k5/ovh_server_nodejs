@@ -30,7 +30,7 @@ var serverOption = {
         flavor: flavorId,
         image: imageId,
         security_groups: 'default',
-        key_name: 'uzzal'
+        openstack: "{key_name: 'uzzal'}"
        };
 
 client.createServer(serverOption,handleServerResponse );
@@ -57,8 +57,8 @@ function handleServerResponse(err, server){
              console.log("Server Name : %s ", server.name);
              console.log("ID :  %s", server.id );
              console.log("Status : %s ", server.status);
-             console.log("Public IP : %  ", server.addresses.public);
-             console.log("Access Key : % ", server.openstack.key_name);
+             console.log("Public IP : %s  ", server.addresses.public);
+             console.log("Access Key : %s ", server.openstack.key_name);
              console.log('Please do not keep running ' + server.id + 'to minimize cost');
         });
 

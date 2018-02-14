@@ -23,7 +23,7 @@ client.on('log::*',function(message, object){
 });
 
 // DELETE SERVER / INSTANCE
-var ServerId = 'f4777434-ea83-44e4-8524-3b68f7151326'
+var ServerId = '6bc54b38-037f-4591-ac62-f64f2c607e9c'
 client.destroyServer(ServerId,
                     function (err, server) {
                         if(err){
