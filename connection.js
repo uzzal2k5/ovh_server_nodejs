@@ -5,7 +5,7 @@ var client = pkg.compute.createClient(
 {
     provider: 'openstack',
     username: '8zeZpK6v89he',
-    password: 'rCPqCwz3Seu2z@lxeExnX5uG8VwHscKe7KbZa',
+    password: 'password',
     region: 'BHS3',
     authUrl: 'https://auth.cloud.ovh.net'
 }
