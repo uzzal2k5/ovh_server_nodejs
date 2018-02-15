@@ -4,7 +4,7 @@ var pkg = require('pkgcloud'),
 var config = {
     provider: 'openstack',
     username: '8zeZpK6v89he',
-    password: 'rCPqCwz3SexeExnX5uG8VwHscKe7KbZa',
+    password: 'password',
     region: 'BHS3',
     authUrl: 'https://auth.cloud.ovh.net'
 };
